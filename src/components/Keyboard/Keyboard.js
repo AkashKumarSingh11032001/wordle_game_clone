@@ -23,7 +23,7 @@ const Keyboard = ({ boardData, handleKeyPress }) => {
             <div className='row' key={index}>
                 {
                     item.map((key, keyIndex) => (
-                        <button key={keyIndex}
+                        <button id="keyButt" key={keyIndex}
                             className={`${boardData && boardData.correctCharArray.includes(key) ? "key-correct" :
                                 (boardData && boardData.presentCharArray.includes(key) ? "key-present" :
                                     boardData && boardData.absentCharArray.includes(key) ? "key-absent" : "")} `}
