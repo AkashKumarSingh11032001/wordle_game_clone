@@ -1,0 +1,7 @@
+{
+    "name": "wordle_game_clone",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}

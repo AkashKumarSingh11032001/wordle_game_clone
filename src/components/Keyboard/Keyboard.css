@@ -46,3 +46,13 @@ button {
     background: #787c7e;
     color: #fff;
 }
+
+@media only screen and (max-width: 550px) {
+    .keyboard-rows {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 10px;
+    }
+}
