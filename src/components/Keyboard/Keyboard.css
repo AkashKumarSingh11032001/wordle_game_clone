@@ -12,6 +12,7 @@
     flex-direction: row;
     gap: 5px;
 }
+
 button {
     border-radius: 5px;
     font-weight: bold;
@@ -49,10 +50,38 @@ button {
 
 @media only screen and (max-width: 550px) {
     .keyboard-rows {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            align-items: center;
-            margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
     }
+
+    .row {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1px;
+    }
+
+    button {
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        background: #d3d6da;
+        padding: 22px 18px;
+        border: none;
+        text-transform: uppercase;
+    }
+        #keyButt {
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            background: #d3d6da;
+            padding: 13px 13px;
+            border: 0.5px solid black;
+            text-transform: uppercase;
+        }
 }

@@ -155,7 +155,7 @@ const App = () => {
         <div className='container'>
             <div className='top'>
                 <div className='title'>WORDLE CLONE</div>
-                <p>~&gt; Akash</p>
+                <p className="author">~&gt; Akash</p>
                 <button className="reset-board" onClick={resetBoard}>{"\u27f3"}</button>
             </div>
             {message && <div className='message'>
