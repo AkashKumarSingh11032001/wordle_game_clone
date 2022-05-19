@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">wordle_game_clone</string>
+    <string name="title_activity_main">wordle_game_clone</string>
+    <string name="package_name">io.akash.wordle_game_clone</string>
+    <string name="custom_url_scheme">io.akash.wordle_game_clone</string>
+</resources>

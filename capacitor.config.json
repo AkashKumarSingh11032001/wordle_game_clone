@@ -1,8 +1,8 @@
 {
-    "appId": "io.ionic.nameofyourapp",
-    "appName": "wordle_game_clone",
-    "bundledWebRuntime": false,
-    "npmClient": "npm",
-    "webDir": "build",
-    "cordova": {}
+  "appId": "io.akash.wordle_game_clone",
+  "appName": "wordle_game_clone",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
 }
